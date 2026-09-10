@@ -11,7 +11,7 @@ public class testSuma {
 		r1=c1.sumar(4, 2);
 		System.out.println("Resultado :"+ r1);
 		
-		int r2;
+		double r2;
 		r2=c1.restar(5, 3);
 		System.out.println("Resultado :"+ r2);
 		
@@ -28,6 +28,13 @@ public class testSuma {
 		System.out.println("Resultado promedio: "+p1);
 		
 		c1.mostrarResultado();
+		
+		Calculadora c2=new Calculadora();
+		double resultadoresta=c2.restar(100.5, 40.5);
+		System.out.println("Resultado:"+ resultadoresta);
+		double resultadodesc=c2.calcularDescuento(200, 15);
+		System.out.println("Resultado descuento:"+ resultadodesc);
+		
 	}
 
 }
