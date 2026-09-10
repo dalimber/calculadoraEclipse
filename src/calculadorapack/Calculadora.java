@@ -12,4 +12,12 @@ public class Calculadora {
 		int resultado=a-b;
 		return resultado;
 	}
+	//TALLER
+	//FUNCION MULTIPLICAR
+	public double multiplicar (double valor1, double valor2)
+	{
+		double producto=valor1*valor2;
+		return producto;
+	}
 }
+	

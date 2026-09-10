@@ -12,12 +12,12 @@ public class testSuma {
 		System.out.println("Resultado :"+ r1);
 		
 		int r2;
-		r2=c1.resta(5, 3);
+		r2=c1.restar(5, 3);
 		System.out.println("Resultado :"+ r2);
 		
-		
-		
-
+		double m1;
+		m1=c1.multiplicar(10, 5);
+		System.out.println("Resultado multiplicacion: "+m1);
 	}
 
 }
