@@ -19,5 +19,13 @@ public class Calculadora {
 		double producto=valor1*valor2;
 		return producto;
 	}
+	
+	//FUNCION DIVIDIR
+		public double dividir(double dividendo,double divisor)
+		{
+			double cociente=dividendo/divisor;
+			return cociente;
+		}
+
 }
 	

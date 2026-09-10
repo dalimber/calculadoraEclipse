@@ -18,6 +18,10 @@ public class testSuma {
 		double m1;
 		m1=c1.multiplicar(10, 5);
 		System.out.println("Resultado multiplicacion: "+m1);
+		
+		double d1;
+		d1=c1.dividir(10, 2);
+		System.out.println("Resultado division: "+d1);
 	}
 
 }
