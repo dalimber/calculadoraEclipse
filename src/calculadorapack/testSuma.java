@@ -22,6 +22,11 @@ public class testSuma {
 		double d1;
 		d1=c1.dividir(10, 2);
 		System.out.println("Resultado division: "+d1);
+		
+		double p1;
+		p1=c1.promediar(10, 8, 9);
+		System.out.println("Resultado promedio: "+p1);
+		
 	}
 
 }
