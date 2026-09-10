@@ -27,6 +27,7 @@ public class testSuma {
 		p1=c1.promediar(10, 8, 9);
 		System.out.println("Resultado promedio: "+p1);
 		
+		c1.mostrarResultado();
 	}
 
 }

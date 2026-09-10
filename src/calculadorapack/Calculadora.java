@@ -33,5 +33,9 @@ public class Calculadora {
 			double promedio=((valor1+valor2+valor3)/3);
 			return promedio;
 		}
+		
+		//FUNCION MOSTRAR RESULTADO
+		public void mostrarResultado()
+		{System.out.println("Ahorita no joven, Salí al almuerzo. Regreso en 15 minutos");}
 }
 	
