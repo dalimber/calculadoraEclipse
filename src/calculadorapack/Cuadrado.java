@@ -12,7 +12,11 @@ public class Cuadrado
 		return area;
 	}
 	//CALCULAR PERIMETRO
-	
+	public double calcularPerimetro()
+	{
+		double perimetro=lado*4;
+		return perimetro;
+	}
 	
 
 }
